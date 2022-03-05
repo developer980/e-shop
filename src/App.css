@@ -1,0 +1,10 @@
+body a {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+body a:hover {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+}

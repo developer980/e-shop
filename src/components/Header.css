@@ -1,0 +1,45 @@
+nav {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 0.5px solid black;
+  border-image: linear-gradient(
+    90deg,
+    rgba(151, 151, 151, 0),
+    rgb(151, 151, 151),
+    rgba(151, 151, 151, 0)
+  );
+  border-image-slice: 1;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: lighter;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav a {
+  transition: all 0.25s;
+}
+
+.button:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.subtitle {
+  top: 125px;
+  position: absolute;
+  left: auto;
+  right: auto;
+}
+.cart {
+  color: brown;
+}
+nav .logo {
+  width: 12%;
+  height: auto;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}

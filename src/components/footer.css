@@ -1,0 +1,13 @@
+footer {
+  background-color: rgb(255, 255, 255);
+  border-top: 0.5px solid black;
+  border-image: linear-gradient(
+    90deg,
+    rgba(151, 151, 151, 0),
+    rgb(151, 151, 151),
+    rgba(151, 151, 151, 0)
+  );
+  border-image-slice: 1;
+  font-size: 15px;
+  padding: 50px;
+}
