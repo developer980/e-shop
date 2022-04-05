@@ -7,7 +7,7 @@ import '../components/Layout.css';
 function Layout(props){
     const {user, signOut} = props;
     return(
-        <div className="mt">
+        <div className="mt h-100">
             {props.children}
             <Header
                 user={user}

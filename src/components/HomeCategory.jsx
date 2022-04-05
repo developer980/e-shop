@@ -11,8 +11,8 @@ function HomeCategory(props){
                     <img src={image} alt="" className="w-100" />
                     <div className="cover">
                         <div className="category">
-                            <p className="my-1 text"><strong>{name}</strong></p>
-                            <p className="m-0 text">{description}</p>
+                            <p className="my-1 text h3">{name}</p>
+                            <p className="m-0 text h6">{description}</p>
                         </div>
                     </div>   
                 </div>

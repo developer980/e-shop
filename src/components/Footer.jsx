@@ -4,26 +4,21 @@ import "../components/footer.css";
 
 function Footer(){
     return(
-        <footer>
-             <div className="row">
-                <div className="col-4 mb-1">
-                    <b>DETALII</b>
-                </div>
-                <div className="col-4 mb-1">
-                    <b>INFORMATII DE CONTACT</b>   
-                </div>
+        <footer className='d-flex flex-row justify-content-around'>
+            <div className="d-flex flex-column">
+                <b>DETALII</b>
+                <Link to = '/about'>Despre noi</Link>
+                <Link to = '/about'>Termeni si conditii</Link>
             </div>
-            <div className="row">
-                <div className="col-4 mb-1">
-                    <Link to = '/about'>Despre noi</Link>
+            <div className="d-flex flex-column">
+                <div className="mb-1">
+                   <b>Contacteaza-ne</b>
                 </div>
-                <div className="col-4 mb-1">
+                <div className="mb-1">
                    Telefon: +40746054090
                 </div>
-            </div>
-            <div className="row">
-                <div className="col-4 mb-1">
-                    <Link to = '/about'>Termeni si conditii</Link>
+                <div className="mb-1">
+                   Email: tudordin2002@gmail.com
                 </div>
             </div>
         </footer>

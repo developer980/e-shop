@@ -53,7 +53,7 @@ function Cart(props) {
 
 function mapStateToProps(state) {
     return {
-        products: state.products
+        products: state.cart.products
     };
 }
 
@@ -63,9 +63,4 @@ function mapDispatchToProps(dispatch){
     }
 }
 
-
 export default connect(mapStateToProps, mapDispatchToProps)(Cart);
-
-
-
-

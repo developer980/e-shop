@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Layout from '../components/Layout';
+import Sidebar from '../components/Sidebar';
 import products from '../utils/products.json';
 import ProductList from '../components/ProductList';
 //import Base_list_sideBar from '../components/Base_list_sideBar';
@@ -27,9 +28,12 @@ class Category extends Component {
 
         return (
             <Layout>
-                <div className="container-fluid container-min-max-width">
-                    <h2 className="mb-5">{ this.state.category.name }</h2>
-                    <ProductList products={this.state.items} />
+                <div className="w-100 container-fluid container-fluid d-flex flex-row">
+                        <Sidebar></Sidebar>
+                    <div className='ml-5 w-100'> 
+                        <p className="display-1 mb-5">{ this.state.category.name }</p>
+                        <ProductList products={this.state.items} />
+                    </div>
                 </div>
             </Layout>
         );

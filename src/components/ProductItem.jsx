@@ -9,8 +9,8 @@ function ProductItem(props) {
     return(
         <div className="product-item col-12 col-md-3 d-flex flex-column align-items-center mb-5">
             <img src={image} alt="productPhoto" className="mb-2 border rounded"/>
-            <p className="mb-1 text-center">{ name }</p>
-            <p className="text-center">{ price + currency }</p>
+            <p className="mb-1 text-center font-weight-normal">{ name }</p>
+            <p className="text-center font-weight-light">{ price + currency }</p>
 
             <button 
             className = 'btn btn-outline-dark'

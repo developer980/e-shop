@@ -13,22 +13,28 @@ function Header(props){
 
     return(
         <div className="d-flex justify-content-center">
-            <div className="subtitle">
-            { user
-                ? <p className='display-4'>Salut, {user.displayName}! ;)</p>
-                : null
-            }
-           {user ? <p className = 'h5 btn btn-outline-dark d-flex align-items-center button' onClick={handleSignOut}>Log out</p>
-            : <Link to ="/login" className="h5 btn btn-outline-dark d-flex align-items-center button">Log in</Link>}
-        </div>
+
             <nav className='w-100 d-flex justify-content-between align-items-center'>
                 <Link to="/" className="my-3">
                     <img src={Logo} alt="x(" className="logo"/>
-                </Link>
-                <Link to="/cart" className='d-flex'>
-                    <ShoppingCart className="ml-2"/>
-                    <p className='ml-1 mb-0'><sub>{numberOfProducts}</sub></p>
-                </Link>
+                </Link>            
+                <div className="d-flex flex-row justify-content-between w-25 align-items-center h-100">
+                <div className="d-flex flex-row justify-content-center align-items-center">
+                        { user
+                            ? <p>{user.displayName}</p>
+                            : null
+                        }
+                    
+            
+                    {user ? <p className = 'ml-3 font-weight-light button' onClick={handleSignOut}>Log out</p>
+                    : <Link to ="/login"> <p className="ml-3 font-weight-light button">Log in</p></Link>}
+                    
+                </div>
+                    <Link to="/cart" className='d-flex'>
+                        <ShoppingCart className="ml-2"/>
+                        <p className='ml-1 mb-0'><sub>{numberOfProducts}</sub></p>
+                    </Link>
+                    </div>
             </nav>
         </div>
     )
@@ -36,7 +42,7 @@ function Header(props){
 
 function mapStateToProps(state){
     return{
-        numberOfProducts:state.products.length
+        numberOfProducts:state.cart.products.length
     }
 }
 

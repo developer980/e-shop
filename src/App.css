@@ -8,3 +8,6 @@ body a:hover {
   text-decoration: none;
   color: rgb(128, 128, 128);
 }
+html{
+  height:100%;
+}

@@ -5,10 +5,10 @@ const initialState = {
 };
 
 export function cartReducer(state = initialState, action) {
+  console.log("hello");
   switch (action.type) {
     case "ADD_TO_CART":
       let productInCart = false;
-
       const updatedProducts = state.products.map((product) => {
         if (product.id === action.payload.product.id) {
           console.log(action.payload.product.id);
