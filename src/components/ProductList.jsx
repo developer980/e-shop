@@ -16,7 +16,8 @@ class ProductList extends React.Component {
                 <div className="row my-4 d-flex flex-row justify-content-around">
                     {
                     sortedPrice ? 
-                    products.filter((product) => (product.price >= sortedPrice && product.price <= (sortedPrice + 50))).map((product) => {
+                    products.filter((product) => (product.price >= sortedPrice && product.price <= (sortedPrice + 50)))
+                    .map((product) => {
                         return (
                         <ProductItem
                             {...product}

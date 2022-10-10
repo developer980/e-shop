@@ -23,7 +23,7 @@ function ProductItem(props) {
                     image
                 }}
             )}>
-                Adauga in cos
+                Add to cart
             </button>
         </div>
     );

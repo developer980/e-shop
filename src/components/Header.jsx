@@ -15,8 +15,8 @@ function Header(props){
         <div className="d-flex justify-content-center">
 
             <nav className='w-100 d-flex justify-content-between align-items-center'>
-                <Link to="/" className="my-3">
-                    <img src={Logo} alt="x(" className="logo"/>
+                <Link to="/" className="my-3 logo">
+                    <img src={Logo} alt="x(" className="logo-img"/>
                 </Link>            
                 <div className="d-flex flex-row justify-content-between w-25 align-items-center h-100">
                 <div className="d-flex flex-row justify-content-center align-items-center">

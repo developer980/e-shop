@@ -14,7 +14,6 @@ import "firebase/auth";
 import firebaseConfig from "./configs/firebase";
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-// ne-o pune la dispozitie.
 const firebaseAppAuth = firebaseApp.auth();
 const providers = {
   googleProvider: new firebase.auth.GoogleAuthProvider(),

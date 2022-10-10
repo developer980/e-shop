@@ -3,7 +3,7 @@
         "items": [
             {
                 "id": 1,
-                "name": "Sneakerși piele Massimo Dutti",
+                "name": "Leather sneakers Massimo Dutti",
                 "price": 135,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/Rz8lVQa.jpg",
@@ -15,7 +15,7 @@
             },
             {
                 "id": 2,
-                "name": "Teniși negri Polo Ralph Lauren",
+                "name": "Black sneakers Polo Ralph Lauren",
                 "price": 100,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/Og3Oh24.jpg",
@@ -27,7 +27,7 @@
             },
             {
                 "id": 3,
-                "name": "Ghete din piele maro Massimo",
+                "name": "Brown leather boots Massimo Dutti",
                 "price": 185,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/zoqSu87.jpg",
@@ -39,14 +39,14 @@
             }
         ],
         "image": "https://i.imgur.com/X0qldXO.jpg",
-        "name": "Încălțăminte",
+        "name": "Footwear",
         "description": "Boots, shoes, Sneakers"
     },
     "sweaters": {
         "items": [
             {
                 "id": 4,
-                "name": "Pulovăr finuț cu guler",
+                "name": "Fine collar sweatter",
                 "price": 95,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/6afzuEr.jpg",
@@ -58,7 +58,7 @@
             },
             {
                 "id": 5,
-                "name": "Pulovăr multicolor",
+                "name": "Multicolour sweater",
                 "price": 105,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/s0VytKc.jpg",
@@ -70,7 +70,7 @@
             },
             {
                 "id": 6,
-                "name": "Pulovăr călduros și frumos",
+                "name": "Nice and warm sweatter",
                 "price": 165,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/BWGgzlK.jpg",
@@ -82,7 +82,7 @@
             },
             {
                 "id": 7,
-                "name": "Pulovăr din lână",
+                "name": "Wool sweatter",
                 "price": 160,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/dTcMbHT.jpg",
@@ -94,14 +94,14 @@
             }
         ],
         "image": "https://i.imgur.com/SZU7liE.jpg",
-        "name": "Pulovere",
-        "description": "Pulovăre elegante, slim, clasă superioară."
+        "name": "Sweatters",
+        "description": "Elegant slim sweatters"
     },
     "pants": {
         "items": [
             {
                 "id": 8,
-                "name": "Blugi bleumarin slim fit",
+                "name": "Navy blue slim fit jeans",
                 "price": 35,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/VhpATO8.jpg",
@@ -113,7 +113,7 @@
             },
             {
                 "id": 9,
-                "name": "Blugi negri slim fit",
+                "name": "Black slim fit jeans",
                 "price": 40,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/weiI07t.jpg",
@@ -125,14 +125,14 @@
             }
         ],
         "image": "https://i.imgur.com/srQCDRN.jpg",
-        "name": "Pantaloni/blugi",
-        "description": "Jeanși și pantaloni"
+        "name": "Jeans/Pants",
+        "description": "Jeans and pants"
     },
     "jackets": {
         "items": [
             {
                 "id": 10,
-                "name": "Haină lungă din lână virgină",
+                "name": "Long wool coat",
                 "price": 210,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/IXrZitQ.jpg",
@@ -144,7 +144,7 @@
             },
             {
                 "id": 11,
-                "name": "Geacă bleumarin cu glugă detașabilă",
+                "name": "Navi blue jacket with removable hood",
                 "price": 250,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/eCZd7PU.jpg",
@@ -156,14 +156,14 @@
             }
         ],
         "image": "https://i.imgur.com/81I6Oab.jpg",
-        "name": "Geci/Haine",
-        "description": "Geci, haine, jachete"
+        "name": "Coats/Jackets",
+        "description": "Jackets, coats"
     },
     "tshirts": {
         "items": [
             {
                 "id": 12,
-                "name": "Tricou în dungi",
+                "name": "Stripes t-shirt",
                 "price": 90,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/BWvzCwB.jpg",
@@ -175,7 +175,7 @@
             },
             {
                 "id": 13,
-                "name": "Tricou de ping pong",
+                "name": "Ping pong t-shirt",
                 "price": 110,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/4BbF4TO.jpg",
@@ -187,7 +187,7 @@
             },
             {
                 "id": 14,
-                "name": "Tricou original BVB cu autograf",
+                "name": "BVB original t-shirt with autograph",
                 "price": 1909,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/etIsbHV.jpg",
@@ -199,14 +199,14 @@
             }
         ],
         "image": "https://i.imgur.com/l27WtFL.jpg",
-        "name": "Tricouri",
-        "description": "Tricouri elegante și de sport."
+        "name": "T-shirts",
+        "description": "Elegant and sport t-shirts"
     },
     "accesories": {
         "items": [
             {
                 "id": 15,
-                "name": "Fular TJ cu două fețe",
+                "name": "TJ scarf",
                 "price": 85,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/rSVUiLO.jpg",
@@ -218,7 +218,7 @@
             },
             {
                 "id": 16,
-                "name": "Mănuși din piele",
+                "name": "Leather gloves",
                 "price": 60,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/LbjGaZ1.jpg",
@@ -230,7 +230,7 @@
             }
         ],
         "image": "https://i.imgur.com/qw3wDj8.jpg",
-        "name": "Accesorii",
-        "description": "Fulare, căciuli, mănuși"
+        "name": "Accesories",
+        "description": "Scarfs, gloves"
     }
 }

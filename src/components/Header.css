@@ -31,21 +31,19 @@ nav a {
 .button:hover {
   cursor: pointer;
   text-decoration: none;
-  border-bottom: 3px solid black;
+  color:red
 }
 
-/*.subtitle {
-  top: 125px;
-  position: absolute;
-  left: auto;
-  right: auto;
-}*/
 .cart {
   color: brown;
 }
 nav .logo {
-  width: 12%;
+  width: 5%;
   height: auto;
+}
+
+.logo-img{
+  width:100%
 }
 
 p {

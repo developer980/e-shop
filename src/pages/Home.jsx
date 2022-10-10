@@ -20,11 +20,15 @@ class Home extends React.Component{
     render() {
         const {user, signOut} = this.props;
 
+        console.log(user);
+
         return(
             <Layout
             user={user}
             signOut = {signOut}
             >
+                {/* {user ? user.displayName : null}
+                <Link to ="/login"> <p className="ml-3 font-weight-light button">Log in</p></Link> */}
                 <div className="container-fluid container-min-max-width d-flex flex-column align-items-center">
                     <div className="row">
                         {this.state.categories.map((category, index) =>
