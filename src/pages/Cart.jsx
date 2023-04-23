@@ -16,9 +16,9 @@ function Cart(props) {
                     props.products.length
                     ? <div className="w-100">
                         <div className="d-flex justify-content-between text-center h4 text-bold">
-                            <p className="w-25">Produs</p>
-                            <p className="w-25">Pret</p>
-                            <p className="w-25">Cantitate</p>
+                            <p className="w-25">Product</p>
+                            <p className="w-25">Price</p>
+                            <p className="w-25">Quantity</p>
                             <p className="w-25">Total</p>
                         </div>
                         {
